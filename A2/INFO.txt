@@ -1,0 +1,10 @@
+Xuan Du
+duxuan1
+
+Discussion:
+Starvation will not happen 
+because the addmission queuesa are having fixed size.
+Once they are empty, thread will be unlocked and other thread can take 
+the position. 
+Once they are full, threads will wait for addmission and cause no 
+problems.
